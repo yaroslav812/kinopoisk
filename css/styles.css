@@ -1,0 +1,64 @@
+#myform{
+    width: 250px;
+    border: solid #000 1px;
+    background-color: #E0E0E0;
+    padding:  10px;
+    margin:  auto;
+}
+p{
+	text-align: center;
+	margin: 10px;
+}
+p a{
+	margin-left: 20px;
+	color: blue;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+}
+.result{
+	margin-top: 20px;
+	height: 300px;
+	width: 800px;
+	margin: 25px auto;
+}
+.loading{
+	background-image:url(images/loader.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#table10{
+	border-collapse: collapse;
+}
+#table10 th{
+	background-color: #000055;
+	color:#FFF;
+}
+#table10 td{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+#table10 tr:nth-child(odd) {
+	background: #EEEEEE;
+}
+#table10 tr {
+	border-left: solid #999 1px;
+	border-right: solid #999 1px;
+}
+.number{
+	text-align: right;
+	color: #555555;
+}
+.movie{
+	color: #000099;
+	padding-left: 25px;
+}
+.left15{
+	text-align: left;
+	padding-left: 15px
+}
+.rating{
+	color: #FF6600;
+}
+.votes{
+	color: #777;
+}

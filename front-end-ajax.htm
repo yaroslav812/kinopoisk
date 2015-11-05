@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>10 лучших фильмов c КиноПоиска</title>
+<link href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="js/myscript-ajax.js"></script>
+</head>
+<body>
+<p><a href="front-end.php">front-end.php</a> <a href="front-end-ajax.htm">front-end-ajax.htm</a> <a href="cron.php">cron.php</a></p>
+<form id="myform" name="form1" action="" >
+	<fieldset>
+    	<legend>Выберете дату:</legend>
+        <p>Date: <input type="text" id="datepicker" /></p>
+    </fieldset>
+</form>
+<div id="result" class="result">
+	<div id="error" class="ui-widget">
+		<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+			<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+			<strong>Ошибка:</strong> статистики на выбранную дату в базе данных не обнаружено.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
